@@ -1,0 +1,1 @@
+igcc -E $CFILE -o c
