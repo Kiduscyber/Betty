@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
  * main - causes an infinite loop
- *
  * Return: 0
  */
 
@@ -16,7 +15,6 @@ int main(void)
 	while (i < 10)
 	{
 		putchar(i);
-	}
 
 	printf("infinite loop voided! \\o/\n");
 
