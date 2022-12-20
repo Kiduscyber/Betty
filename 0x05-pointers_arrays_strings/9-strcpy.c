@@ -16,9 +16,10 @@ char *_strcpy(char *dest, char *src)
 
 	while (count >= 0)
 	{
-		*(dest + coucou) = *(src + count);
-		if (*(srv + count) == '\0')
+		*(dest + count) = *(src + count);
+		if (*(src + count) == '\0')
 			break;
+		count++;
 	}
 	return (dest);
 }
