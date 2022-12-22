@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * string_toupper - a function that change all lowercase letters of string to uppercase
+ * string_toupper - a function that change all lowerce to uppercase
  * @n: pointer
  * Return: void
  */
@@ -13,7 +13,7 @@ char *string_toupper(char *n)
 	i = 0;
 	while (n[i] != '\0')
 	{
-		if (n[i] >= 'A' && n[i] <= 'Z')
+		if (n[i] >= 'a' && n[i] <= 'z')
 			n[i] = n[i] - 32;
 		i++;
 	}
