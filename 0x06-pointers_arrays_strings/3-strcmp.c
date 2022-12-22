@@ -3,7 +3,7 @@
 /**
  * _strcmp - a function compares two string
  * @s1: first string to be compared
- * * @s2: second string tk be compared
+ * @s2: second string tk be compared
  * Return: s1[i] - s2[i]
  */
 
