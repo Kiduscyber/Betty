@@ -5,20 +5,19 @@
  * @dest: enter value
  * @src: enter value
  * @n: input value
- * Return: void
+ * Return: dest
  */
 
 char *_strncpy(char *dest, char *src, int n)
 {
 	int i = 0;
-	int j = 0;
 
 	while (src[i++])
-		j++;
+		i++;
 	for (i = 0; src[i] && i < n; i++)
-		dest[i] = src[j];
+		dest[i] = src[i];
 
-	for (i = j; i < n; i++)
+	for (i < n; i++)
 		dest[i] = '\0';
 
 	return (dest);
