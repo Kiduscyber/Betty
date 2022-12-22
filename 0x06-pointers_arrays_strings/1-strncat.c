@@ -2,12 +2,12 @@
 
 /**
  * strcat - a function that concatenates two strings
- * @dest: a pointer to the string to be concatenated up on 
- * @src: the source string 
+ * @dest:  the first string to be concatenated 
+ * @src: the second string to be concatenated
  * Return: a pointer to the destination string @dest,
  */
 
-char *strcat(char *dest, const char *src)
+char *_strcat(char *dest, char *src)
 {
 	int index = 0, dest_len = 0;
 
