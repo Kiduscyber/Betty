@@ -16,19 +16,19 @@ char *cap_string(char *str)
 			index++;
 
 		if (str[index - 1] == ' ' ||
-				str[index] == '\t' ||
-				str[index] == '\n' ||
-				str[index] == ',' ||
-				str[index] == ';' ||
-				str[index] == '.' ||
-				str[index] == '!' ||
-				str[index] == '?' ||
-				str[index] == '"' ||
-				str[index] == '(' ||
-				str[index] == ')' ||
-				str[index] == '{' ||
-				str[index] == '}' ||
-				index == 0)
+		str[index] == '\t' ||
+		str[index] == '\n' ||
+		str[index] == ',' ||
+		str[index] == ';' ||
+		str[index] == '.' ||
+		str[index] == '!' ||
+		str[index] == '?' ||
+		str[index] == '"' ||
+		str[index] == '(' ||
+		str[index] == ')' ||
+		str[index] == '{' ||
+		tr[index] == '}' ||
+		index == 0)
 			str[index] -= 32;
 		index++;
 	}
